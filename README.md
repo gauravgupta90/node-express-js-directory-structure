@@ -29,3 +29,17 @@ You can see the port number in command prompt after sucessfull run
 You can change the settings in server/config/config.js file
 
 ### API
+
+###### *Get request*
+
+    http://localhost:8000/test?id=87&name=gaurav
+
+###### *POST request*
+
+    http://localhost:8000/test?id=87&name=gaurav
+
+    Body:
+
+    	{
+			"email":"gaurav_bng@hotmail.com"
+		}
